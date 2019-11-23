@@ -9,6 +9,8 @@ Bài giảng thực hiện bằng tiếng Việt, tuy nhiên tất cả tài li�
 ### Tham khảo
 [1]  EE368/CS232 Digital Image Processing của Stanford, Online at https://web.stanford.edu/class/ee368/
 
+[2] Handout và source code của bài giảng EE368. Online at  https://web.stanford.edu/class/ee368/Handouts/Lectures/?fbclid=IwAR3vzW-wmmfbzLg5qMDgEZmVeb8VQPz4KzEFKozkGTJ2PdgMv4P3DVifq9I 
+
 ### Chú thích
 - Mình không sở hữu nội dung bài giảng vì phần nhiều nội dung của bài giảng do mình tổng hợp lại nhiều nguồn và có dẫn chứng cụ thể. 
 - Do giới hạn thời gian chuẩn bị cũng như giới hạn hiểu biết của mình, bài giảng có thể có sai sót. Các bạn tham khảo xin vui lòng góp ý. Mình sẽ update khi có thời gian.  
