@@ -1,0 +1,8 @@
+1) Implement dilation và erosion 
+2) Làm lại bài đếm cá với công cụ mới dilation và errosion 
+So sánh các thuật toán edge detection như Canny với các kỹ thuật dùng erosion, dilation đã học. Với các trường hợp ảnh: mờ thông thường, mờ chuyển động, ảnh bị nhiễu, ảnh thiếu sáng 
+3) Implement thuật toán Hit-miss filter để tìm số 3 trong ảnh. 
+
+Chú ý: 
+- Khi các bạn làm bài tập nên có nhận xét về kết quả làm.
+- Khi làm nên thử các mức ngưỡng khác nhau. Ở bài này chính là các mẫu cấu trúc của W khác nhau. Thử với một vài mẫu cấu trúc cơ bản 
