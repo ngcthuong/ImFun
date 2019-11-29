@@ -1,0 +1,23 @@
+1) Thực hiện box filter 
+A. Naive implementation: sử dụng cửa sổ trượt
+B. Integral implementation: 
+
+Note 
++ Test với các kích thước cửa sổ khác nhau 3x3, 5x5, 9x9, 25x25
++ Test thời gian chạy 
++ Test với ảnh nhiễu Gaussian với mức nhiễu (standard deviation) 10, 25, 50 so với ảnh ở khoảng giá trị 0~255. 
+
+2) So sánh box filter và Gaussian filter
+  làm lại ví dụ trong bài dùng box filter nhiều lần để so sánh với Gaussian filter. 
+  
+  
+3) Thực hiện bài toán "subsampling" bằng phép nhân ma trận. 
+ Ma trận ở dạng separable với 
++ Giảm kích thước đi 1/4 lần  
++ Theo hai cách: Nearest neighbor (chọn pixel lân cận gần nhất), và trung bình pixels 
+
+4) Implement một sharpening filter bằng 
++ Naive implementation 
++ Thông qua integral image
+
+So sánh thời gian chạy 
