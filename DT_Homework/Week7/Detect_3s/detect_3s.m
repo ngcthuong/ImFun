@@ -1,0 +1,17 @@
+img = rgb2gray(imread('21.png'));
+level = graythresh(img);
+bwImg = im2bw(img, 0.9);
+se = strel('disk',1);
+W = imread('W1new.png');
+V = im2bw(imread('V1new.png'));
+A = W&V;
+img1 = imerode(1-bwImg, V);
+img2 = imerode(bwImg, W);
+img3 = img1 & img2;
+img4 = imdilate(img3, W);
+imwrite(img4, 'result42.png');
+% V1 = im2bw(imread('V1new.png'));
+% V2 = imdilate(V1,strel('disk',1));
+% V3 = imdilate(V2,strel('disk',1));
+% V4 = V3~=V2;
+% imwrite(V4, 'W1new.png');
