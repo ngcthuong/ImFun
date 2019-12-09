@@ -1,0 +1,3 @@
+1) Implement Gaussian filter 
+
+2) Implement Adaptive Wiener filter   
