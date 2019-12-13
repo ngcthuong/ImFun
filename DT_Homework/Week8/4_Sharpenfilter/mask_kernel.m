@@ -8,11 +8,6 @@ y_add = floor(y / 2);
 xsize = ximg + 2 * x_add;
 ysize = yimg + 2 * y_add;
 img_new = zeros(xsize, ysize);
-% replicate
-img_new(1,:) = [img(1,1),img(1,:),img(1,end)]; 
-img_new(end,:) = [img(end,1),img(end,:),img(end,end)]; 
-img_new(:,1) = [img(1,1);img(:,1);img(end,1)]; 
-img_new(:,end) =[img(1,end);img(:,end);img(end,end)]; 
 img_new(x_add+1:x_add+ximg,y_add+1:y_add+yimg) = img;
 % Dilation
 imgK = img;
